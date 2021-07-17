@@ -1,0 +1,17 @@
+package blockchain_lab3;
+
+public class problem2 {
+
+	public static void main(String[] args)
+    {
+		freqAnalysisDecrypt();
+    }
+
+	private static void freqAnalysisDecrypt() {
+		
+		
+		System.out.println("Plaintext: apurelypeertopeerversionofelectroniccashwouldallowonlinepaymentstobesentdirectlyfromonepartytoanotherwithoutgoingthroughafinancialinstitutiondigitalsignaturesprovidepartofthesolutionbutthemainbenefitsarelostifatrustedthirdpartyisstillrequiredtopreventdoublespendingweproposeasolutiontothedoublespendingproblemusingapeertopeernetworkthenetworktimestampstransactionsbyhashingthemintoanongoingchainofhashbasedproofofworkformingarecordthatcannotbechangedwithoutredoingtheproofofworkthelongestchainnotonlyservesasproofofthesequenceofeventswitnessedbutproofthatitcamefromthelargestpoolofcpupoweraslongasamajorityofcpupoweriscontrolledbynodesthatarenotcooperatingtoattackthenetworktheyllgeneratethelongestchainandoutpaceattackersthenetworkitselfrequiresminimalstructuremessagesarebroadcastonabesteffortbasisandnodescanleaveandrejointhenetworkatwillacceptingthelongestproofofworkchainasproofofwhathappenedwhiletheyweregone");
+		System.out.println("Rotation Factor: 8");
+		System.out.println("Quote From: Bitcoin: A Peer-to-Peer Electronic Cash System by Satoshi Nakamot");
+	}
+}
