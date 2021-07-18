@@ -2,15 +2,15 @@ Lab 3 Documentation:			author: Nicholas Maheshwari
 -----------------------------------------------------------------------
 Problem 1:
 
-	dependencies - 
+	dependencies - None, just imports that are included within program files
 
-	to begin program -
+	to begin program - 
 	
 	
 
 Problem 2:
 
-	dependencies - 
+	dependencies - None, just imports that are included within program files
 
 	to begin program -
 	
