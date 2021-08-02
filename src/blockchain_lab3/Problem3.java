@@ -23,6 +23,7 @@ public class Problem3 {
     }
 	private static void shaHash() {
         long t = System.currentTimeMillis(); //unix epoch time
+    
 		String time = String.valueOf(t); //current time to string
         String d = "1.00000";	
         //System.out.println(time.getBytes().hashCode());
@@ -41,6 +42,7 @@ public class Problem3 {
 		set2.add(d);
 		set2.add("12486777");
 		 
+		
 		//serialize data
 		byte[] set1Data = serialize(set1);
 		byte[] set2Data = serialize(set2);
@@ -56,7 +58,6 @@ public class Problem3 {
 		byte[] shaLeft = digest.digest(digest.digest(set1Data)); //twice hash set1Data
 		byte[] shaRight = digest.digest(digest.digest(set2Data)); //twice hash set2Data
 		System.out.println("shaLeft: "+shaLeft.hashCode() + ", shaRight:" + shaRight.hashCode());
-		
 		
 		//combine shaLeft and shaRight into one byte stream "root", run  root through sha256
 		byte[] temp = new byte[shaLeft.length + shaRight.length ];
