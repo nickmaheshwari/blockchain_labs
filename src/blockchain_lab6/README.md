@@ -1,5 +1,5 @@
-Lab 5 Documentation:			author: Nicholas Maheshwari
-Lab instructions: https://www.classes.cs.uchicago.edu/archive/2021/summer/56600-1/LABS/LAB.5/lab_5.html
+Lab 6 Documentation:			author: Nicholas Maheshwari
+Lab instructions: https://www.classes.cs.uchicago.edu/archive/2021/summer/56600-1/LABS/LAB.6/lab_6.html
 -----------------------------------------------------------------------
 Dependencies: Guava (see: https://mvnrepository.com/artifact/com.google.guava/guava/30.1.1-jre)  
  Simply copy the following code into your pom.xml within the 'dependencies' tags, and then run 'mvn clean install' from the project's directory:
@@ -19,7 +19,7 @@ To run from command line:
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>1.2.1</version>
 				<configuration>
-					<mainClass>blockchain_lab5.BlockchainDriver</mainClass>
+					<mainClass>blockchain_lab6.BlockchainDriver</mainClass>
 				</configuration>
 			</plugin>
 			
@@ -30,3 +30,7 @@ Running from IDE:
 	-Ensure your genesis block's transaction ID's are stored in a file within the same code directory under the name 'GenesisTransactionIDs.txt'
 	-Ensure your other block's transaction ID's are stored in a file within the same code directory under the name 'TransactionIDs.txt'
 	-Run either by hitting the 'Run' button on the tool bar or using the 'Run' options within the navigation bar
+	
+	
+Side notes: 
+	-To print the entire block chain when running, uncomment lines 33-34 in BlockchainDriver.java
