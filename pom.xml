@@ -18,7 +18,6 @@
 			<artifactId>guava</artifactId>
 			<version>30.1.1-jre</version>
 		</dependency>
-
 	</dependencies>
 
 
@@ -46,7 +45,7 @@
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>1.2.1</version>
 				<configuration>
-					<mainClass>blockchain_lab6.BlockchainDriver</mainClass>
+					<mainClass>blockchain_lab7.BitcoinAddressGenerator</mainClass>
 				</configuration>
 			</plugin>
 

@@ -1,3 +1,4 @@
+blockchain_lab7/BitcoinAddressGenerator.class
 blockchain_lab6/Miner.class
 blockchain_lab3/Problem2$CipherModel.class
 blockchain_lab6/Merklizer.class
@@ -19,3 +20,4 @@ blockchain_lab6/Transaction.class
 blockchain_lab5/BlockchainDriver.class
 blockchain_lab6/Merklizer$MerkleNode.class
 blockchain_lab5/Transaction.class
+blockchain_lab7/Base58Encoder.class
